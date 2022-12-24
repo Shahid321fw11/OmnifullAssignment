@@ -1,0 +1,31 @@
+.main_leftBar {
+  position: absolute;
+  width: 70px;
+  height: 94vh;
+  /* height: 832px; */
+  left: 0px;
+  /* top: 58px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding-top: 10px;
+  border-right: "2px solid #EEF0FF";
+}
+
+.icon {
+  width: 42px;
+  height: 40px;
+  /* background: cadetblue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px;
+}
+
+.icon:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* background: linear-gradient(90deg, #5468fa 0%, rgba(84, 104, 250, 0.6) 100%); */
+  color: #fff;
+}
